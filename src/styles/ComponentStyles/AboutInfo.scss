@@ -1,3 +1,54 @@
 .AboutInfo-main {
   @apply px-[12.9rem] py-[11.3rem];
+
+  .about-details {
+    @apply flex justify-center items-center gap-x-[17.3rem];
+  }
+
+  .detail {
+    @apply flex flex-col gap-y-[3rem];
+
+    .greet {
+      @apply flex  items-center gap-x-[6.3px] mb-[8px];
+
+      .hi {
+        @apply text-[3rem] font-bold;
+      }
+
+      .hand {
+        @apply w-[2rem] h-[2.4rem];
+      }
+    }
+    .name {
+      @apply text-[3rem] font-bold;
+    }
+  }
+
+  .info {
+    @apply text-[1.25rem] leading-[1.875rem];
+  }
+
+  .buttons {
+    @apply flex gap-x-[1rem];
+
+    .black-btn {
+      @apply bg-black text-white w-[14.375rem] rounded-[.5rem] flex gap-x-[1rem] justify-center items-center h-[3rem];
+    }
+
+    .white-btn {
+      @apply bg-[#F9FAFB] rounded-[.5rem] border-[3px] w-[14.375rem] flex gap-x-[1rem] justify-center items-center h-[3rem];
+    }
+
+    .arrow-up {
+      @apply w-[.75rem] h-[.75rem];
+    }
+
+    .arrow-down {
+      @apply w-[.75rem] h-[.75rem];
+    }
+  }
+
+  img {
+    @apply w-[25rem] h-[25rem] rounded-[50%];
+  }
 }

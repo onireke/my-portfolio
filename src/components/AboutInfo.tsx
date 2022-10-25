@@ -6,9 +6,12 @@ function AboutInfo() {
       <section className="about-details">
         <div className="detail">
           <div className="greetings">
-            <h1>Hi</h1>
-            <img src="/images/hand.png" alt="hand"></img>
-            <br /> I'm Amosa Abdulfatah Olayinka
+            <div className="greet">
+              <h1 className="hi">Hi</h1>
+              <img src="/images/hand.png" alt="hand" className="hand" />
+            </div>
+
+            <h1 className="name">I'm Amosa Abdulfatah Olayinka</h1>
           </div>
           <p className="info">
             Abdulfatah is a dedicated and an active <br /> Javascript/React
@@ -18,14 +21,22 @@ function AboutInfo() {
             find efficient solutions to complex problems.
           </p>
           <div className="buttons">
-            <button>
-              Let’s work together{" "}
-              <img src="/images/arrow-up.png" alt="arrow-up" />
-            </button>
-            <button>
-              See some of my works{" "}
-              <img src="/images/arrow-down.png" alt="arrow-down" />
-            </button>
+            <div className="black-btn">
+              <p btn-word1>Let’s work together</p>
+              <img
+                src="/images/arrow-up.png"
+                alt="arrow-up"
+                className="arrow-up"
+              />
+            </div>
+            <div className="white-btn">
+              <p btn-words>See some of my works</p>
+              <img
+                src="/images/arrow-down.png"
+                alt="arrow-down"
+                className="arrow-down"
+              />
+            </div>
           </div>
         </div>
         <img
