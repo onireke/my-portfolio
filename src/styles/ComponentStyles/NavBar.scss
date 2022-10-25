@@ -1,0 +1,14 @@
+.nav-main {
+  @apply flex justify-between text-center ml-[13.4rem] mr-[13.4rem] mt-[1.125rem] static font-medium leading-[1.5rem];
+
+  .left-bar {
+    @apply flex justify-between text-center gap-x-[2rem];
+  }
+  .bar-pages {
+    @apply flex justify-between text-center gap-x-[2rem];
+  }
+
+  .mode-div {
+    @apply flex items-center bg-[#E5E7EB] p-[9px] rounded-[4px];
+  }
+}
