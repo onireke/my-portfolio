@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <main>
+    <main className="about-main">
       <section className="about-section">
         <div className="about-bit">
           <p className="about">about me</p>
@@ -27,11 +27,40 @@ function About() {
             <p className="word-tech">Technologies</p>
             <div className="tech-list">
               <div className="name-arrow">
-                <img src="" alt="" />
+                <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                <p className="tech-name">HTML5 & (S)CSS</p>
+                <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                <p className="tech-name">Javascript(ES6+)</p>
+                <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                <p className="tech-name">Reactjs</p>
+                <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                <p className="tech-name">TypeScript</p>
+                <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                <p className="tech-name">Nextjs</p>
+                <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                <p className="tech-name">Redux</p>
               </div>
             </div>
           </div>
-          <div className="tools"></div>
+          <div className="tools">
+            <p className="word-tech">Tools</p>
+            <div className="tech-list">
+              <div className="name-arrow">
+                <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                <p className="tech-name">VsCode</p>
+                <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                <p className="tech-name">Git</p>
+                <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                <p className="tech-name">Github</p>
+                <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                <p className="tech-name">Vercel</p>
+                <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                <p className="tech-name">Netlify</p>
+                <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                <p className="tech-name">Tailwindcss</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>

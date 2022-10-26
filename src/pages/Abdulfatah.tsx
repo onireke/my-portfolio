@@ -4,7 +4,7 @@ import NavBar from "../components/NavBar";
 
 function Main() {
   return (
-    <main className="about-main">
+    <main className="main">
       <NavBar />
       <MainInfo />
     </main>
