@@ -1,9 +1,9 @@
 import React from "react";
 
-function AboutInfo() {
+function MainInfo() {
   return (
-    <main className="AboutInfo-main">
-      <section className="about-details">
+    <main className="mainInfo-main">
+      <section className="main-details">
         <div className="detail">
           <div className="greetings">
             <div className="greet">
@@ -39,14 +39,10 @@ function AboutInfo() {
             </div>
           </div>
         </div>
-        <img
-          src="/images/mypicture.jpg"
-          alt="mypicture"
-          className="about-img"
-        />
+        <img src="/images/mypicture.jpg" alt="mypicture" className="main-img" />
       </section>
     </main>
   );
 }
 
-export default AboutInfo;
+export default MainInfo;

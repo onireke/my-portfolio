@@ -1,7 +1,7 @@
-.AboutInfo-main {
+.mainInfo-main {
   @apply px-[12.9rem] py-[11.3rem];
 
-  .about-details {
+  .main-details {
     @apply flex justify-center items-center gap-x-[17.3rem];
   }
 
@@ -25,7 +25,7 @@
   }
 
   .info {
-    @apply text-[1.25rem] leading-[1.875rem];
+    @apply text-[1.25rem] leading-[1.875rem] font-normal;
   }
 
   .buttons {
