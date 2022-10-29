@@ -10,12 +10,17 @@ function NavBar() {
 
       <div className="left-bar">
         <ul className="bar-pages">
-          <Link href="/About">
-            <li>About</li>
+          <Link href="#About">
+            <a>About</a>
           </Link>
 
-          <li>Work</li>
-          <li>Contact</li>
+          <Link href="#Work">
+            <a>Work</a>
+          </Link>
+
+          <Link href="#Contact">
+            <a>Contact</a>
+          </Link>
         </ul>
         <div className="mode-div">
           <img src="/images/modecontrol.png" alt="" />

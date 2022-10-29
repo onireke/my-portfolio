@@ -1,0 +1,34 @@
+.work--main {
+  background-image: url("/images/workImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  @apply h-[55rem]  py-[5.8rem];
+
+  .work--section {
+    @apply flex flex-col gap-y-[3rem] pb-[5rem];
+
+    .top {
+      @apply flex justify-between items-end gap-x-[29.68rem]  mx-[2rem] px-[12.9rem];
+    }
+
+    .feature--project {
+      @apply text-[1.8rem] font-extralight;
+    }
+
+    .stuffword--image {
+      @apply flex items-center gap-x-[2rem] text-[2.5rem] font-bold;
+    }
+
+    .top--right {
+      @apply flex gap-x-[2.5rem] items-start;
+    }
+
+    .arrow-left,
+    .arrow-right {
+      @apply w-[2rem] h-[2rem] border border-[gray] rounded-[5px] flex justify-center items-center;
+    }
+    .arrow {
+      @apply w-[1rem] h-[1rem];
+    }
+  }
+}

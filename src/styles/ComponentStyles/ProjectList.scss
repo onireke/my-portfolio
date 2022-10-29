@@ -1,0 +1,11 @@
+.project--list {
+  @apply flex ml-[12.9rem];
+}
+
+.list {
+  @apply w-[33.8rem] h-[35.3rem] rounded-[2rem] p-[1.5rem] border-[gray] border flex flex-col gap-y-[1rem] ml-[2rem];
+
+  .finbus {
+    @apply w-[30.8rem] h-[22rem] rounded-[2rem];
+  }
+}

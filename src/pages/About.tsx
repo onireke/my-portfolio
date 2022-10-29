@@ -2,10 +2,10 @@ import React from "react";
 
 function About() {
   return (
-    <main className="about-main">
+    <main className="about-main" id="About">
       <section className="about-section">
         <div className="about-bit">
-          <p className="about">about me</p>
+          <p className="about-me">ABOUT ME</p>
           <p className="bit">A bit about me.</p>
         </div>
         <div className="info-more">
@@ -26,38 +26,68 @@ function About() {
           <div className="techs">
             <p className="word-tech">Technologies</p>
             <div className="tech-list">
-              <div className="name-arrow">
-                <img src="./images/arrow.png" alt="arrow" className="arrow" />
-                <p className="tech-name">HTML5 & (S)CSS</p>
-                <img src="./images/arrow.png" alt="arrow" className="arrow" />
-                <p className="tech-name">Javascript(ES6+)</p>
-                <img src="./images/arrow.png" alt="arrow" className="arrow" />
-                <p className="tech-name">Reactjs</p>
-                <img src="./images/arrow.png" alt="arrow" className="arrow" />
-                <p className="tech-name">TypeScript</p>
-                <img src="./images/arrow.png" alt="arrow" className="arrow" />
-                <p className="tech-name">Nextjs</p>
-                <img src="./images/arrow.png" alt="arrow" className="arrow" />
-                <p className="tech-name">Redux</p>
+              <div className="namearrow-div">
+                <div className="name-arrow">
+                  <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                  <p className="tech-name">HTML5 & (S)CSS</p>
+                </div>
+                <div className="name-arrow">
+                  <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                  <p className="tech-name">Javascript(ES6+)</p>
+                </div>
+                <div className="name-arrow">
+                  <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                  <p className="tech-name">Reactjs</p>
+                </div>
+                <div className="name-arrow">
+                  {" "}
+                  <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                  <p className="tech-name">TypeScript</p>
+                </div>
+                <div className="name-arrow">
+                  {" "}
+                  <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                  <p className="tech-name">Nextjs</p>
+                </div>
+                <div className="name-arrow">
+                  {" "}
+                  <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                  <p className="tech-name">Redux</p>
+                </div>
               </div>
             </div>
           </div>
+
           <div className="tools">
-            <p className="word-tech">Tools</p>
-            <div className="tech-list">
-              <div className="name-arrow">
-                <img src="./images/arrow.png" alt="arrow" className="arrow" />
-                <p className="tech-name">VsCode</p>
-                <img src="./images/arrow.png" alt="arrow" className="arrow" />
-                <p className="tech-name">Git</p>
-                <img src="./images/arrow.png" alt="arrow" className="arrow" />
-                <p className="tech-name">Github</p>
-                <img src="./images/arrow.png" alt="arrow" className="arrow" />
-                <p className="tech-name">Vercel</p>
-                <img src="./images/arrow.png" alt="arrow" className="arrow" />
-                <p className="tech-name">Netlify</p>
-                <img src="./images/arrow.png" alt="arrow" className="arrow" />
-                <p className="tech-name">Tailwindcss</p>
+            <p className="word-tool">Tools</p>
+            <div className="tool-list">
+              <div className="namearrow-div">
+                <div className="name-arrow">
+                  <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                  <p className="tech-name">VsCode</p>
+                </div>
+
+                <div className="name-arrow">
+                  <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                  <p className="tech-name">Git</p>
+                </div>
+
+                <div className="name-arrow">
+                  <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                  <p className="tech-name">Github</p>
+                </div>
+                <div className="name-arrow">
+                  <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                  <p className="tech-name">Vercel</p>
+                </div>
+                <div className="name-arrow">
+                  <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                  <p className="tech-name">Netlify</p>
+                </div>
+                <div className="name-arrow">
+                  <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                  <p className="tech-name">Tailwindcss</p>
+                </div>
               </div>
             </div>
           </div>

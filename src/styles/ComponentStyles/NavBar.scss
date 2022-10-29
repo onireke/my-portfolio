@@ -1,5 +1,5 @@
 .nav-main {
-  @apply flex justify-between text-center ml-[8.9rem] mr-[8.9rem] mt-[1.125rem] static font-medium leading-[1.5rem] top-0 left-0 right-0;
+  @apply flex justify-between text-center pl-[8.9rem] pr-[8.9rem] py-[1.125rem]  font-medium leading-[1.5rem] fixed bg-white z-[60] top-0 left-0 right-0 drop-shadow-lg;
 
   .left-bar {
     @apply flex justify-between text-center gap-x-[2rem];

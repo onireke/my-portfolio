@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 function MainInfo() {
   return (
@@ -21,22 +22,27 @@ function MainInfo() {
             find efficient solutions to complex problems.
           </p>
           <div className="buttons">
-            <div className="black-btn">
-              <p btn-word1>Let’s work together</p>
-              <img
-                src="/images/arrow-up.png"
-                alt="arrow-up"
-                className="arrow-up"
-              />
-            </div>
-            <div className="white-btn">
-              <p btn-words>See some of my works</p>
-              <img
-                src="/images/arrow-down.png"
-                alt="arrow-down"
-                className="arrow-down"
-              />
-            </div>
+            <Link href="#Contact">
+              <div className="black-btn">
+                <p btn-word1>Let’s work together</p>
+                <img
+                  src="/images/arrow-up.png"
+                  alt="arrow-up"
+                  className="arrow-up"
+                />
+              </div>
+            </Link>
+
+            <Link href="#Work">
+              <div className="white-btn">
+                <p btn-words>See some of my works</p>
+                <img
+                  src="/images/arrow-down.png"
+                  alt="arrow-down"
+                  className="arrow-down"
+                />
+              </div>
+            </Link>
           </div>
         </div>
         <img src="/images/mypicture.jpg" alt="mypicture" className="main-img" />

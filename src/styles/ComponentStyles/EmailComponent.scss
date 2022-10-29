@@ -1,0 +1,37 @@
+.emailcomponent-main {
+  //   background-color: aqua;
+  background: linear-gradient(90deg, #8b5cf6 0%, #ec4899 43.9%);
+  backdrop-filter: blur(75px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 16px;
+  @apply w-[78rem] h-[15.6rem]  ml-[13rem] mt-[4rem] mx-[12.9rem] p-[2rem];
+
+  .contactinfo-image {
+    @apply flex justify-between items-center;
+
+    .left-side {
+      @apply flex flex-col gap-y-[1.5rem];
+
+      .contact {
+        @apply text-[1.5rem] font-normal text-[white];
+      }
+
+      .work-together {
+        @apply font-bold text-[2rem] text-[white];
+      }
+
+      .email-part {
+        @apply p-[1rem] bg-[#F6A4CB] rounded-[8px];
+
+        .email {
+          @apply font-bold text-[1.5rem];
+        }
+      }
+    }
+    .mail {
+      border-radius: 50%;
+      @apply w-[9.5rem] h-[9.5rem];
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.footer-main {
+  @apply flex justify-center;
+
+  .footer {
+    @apply flex gap-x-[.5rem] justify-end items-center;
+
+    .copyright {
+      @apply text-[.875rem] font-medium;
+    }
+    .myname {
+      @apply text-[1rem] font-bold;
+    }
+  }
+}
