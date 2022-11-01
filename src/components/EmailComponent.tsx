@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function EmailComponent() {
   return (
@@ -16,7 +17,13 @@ function EmailComponent() {
             </div>
           </a>
         </div>
-        <img src="/images/mail.png" alt="mail" className="mail" />
+        <Image
+          src="/images/mail.png"
+          alt="mail"
+          className="mail"
+          width={152}
+          height={152}
+        />
       </section>
     </main>
   );

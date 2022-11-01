@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function About() {
   return (
@@ -28,30 +29,66 @@ function About() {
             <div className="tech-list">
               <div className="namearrow-div">
                 <div className="name-arrow">
-                  <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                  <Image
+                    width={10}
+                    height={10}
+                    src="/images/arrow.png"
+                    alt="arrow"
+                    className="arrow"
+                  />
                   <p className="tech-name">HTML5 & (S)CSS</p>
                 </div>
                 <div className="name-arrow">
-                  <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                  <Image
+                    width={10}
+                    height={10}
+                    src="/images/arrow.png"
+                    alt="arrow"
+                    className="arrow"
+                  />
                   <p className="tech-name">Javascript(ES6+)</p>
                 </div>
                 <div className="name-arrow">
-                  <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                  <Image
+                    width={10}
+                    height={10}
+                    src="/images/arrow.png"
+                    alt="arrow"
+                    className="arrow"
+                  />
                   <p className="tech-name">Reactjs</p>
                 </div>
                 <div className="name-arrow">
                   {" "}
-                  <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                  <Image
+                    width={10}
+                    height={10}
+                    src="/images/arrow.png"
+                    alt="arrow"
+                    className="arrow"
+                  />
                   <p className="tech-name">TypeScript</p>
                 </div>
                 <div className="name-arrow">
                   {" "}
-                  <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                  <Image
+                    width={10}
+                    height={10}
+                    src="/images/arrow.png"
+                    alt="arrow"
+                    className="arrow"
+                  />
                   <p className="tech-name">Nextjs</p>
                 </div>
                 <div className="name-arrow">
                   {" "}
-                  <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                  <Image
+                    width={10}
+                    height={10}
+                    src="/images/arrow.png"
+                    alt="arrow"
+                    className="arrow"
+                  />
                   <p className="tech-name">Redux</p>
                 </div>
               </div>
@@ -63,29 +100,65 @@ function About() {
             <div className="tool-list">
               <div className="namearrow-div">
                 <div className="name-arrow">
-                  <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                  <Image
+                    width={10}
+                    height={10}
+                    src="/images/arrow.png"
+                    alt="arrow"
+                    className="arrow"
+                  />
                   <p className="tech-name">VsCode</p>
                 </div>
 
                 <div className="name-arrow">
-                  <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                  <Image
+                    width={10}
+                    height={10}
+                    src="/images/arrow.png"
+                    alt="arrow"
+                    className="arrow"
+                  />
                   <p className="tech-name">Git</p>
                 </div>
 
                 <div className="name-arrow">
-                  <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                  <Image
+                    width={10}
+                    height={10}
+                    src="/images/arrow.png"
+                    alt="arrow"
+                    className="arrow"
+                  />
                   <p className="tech-name">Github</p>
                 </div>
                 <div className="name-arrow">
-                  <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                  <Image
+                    width={10}
+                    height={10}
+                    src="/images/arrow.png"
+                    alt="arrow"
+                    className="arrow"
+                  />
                   <p className="tech-name">Vercel</p>
                 </div>
                 <div className="name-arrow">
-                  <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                  <Image
+                    width={10}
+                    height={10}
+                    src="/images/arrow.png"
+                    alt="arrow"
+                    className="arrow"
+                  />
                   <p className="tech-name">Netlify</p>
                 </div>
                 <div className="name-arrow">
-                  <img src="./images/arrow.png" alt="arrow" className="arrow" />
+                  <Image
+                    width={10}
+                    height={10}
+                    src="/images/arrow.png"
+                    alt="arrow"
+                    className="arrow"
+                  />
                   <p className="tech-name">Tailwindcss</p>
                 </div>
               </div>

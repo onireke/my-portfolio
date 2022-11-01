@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 function NavBar() {
   return (
@@ -23,7 +24,12 @@ function NavBar() {
           </Link>
         </ul>
         <div className="mode-div">
-          <img src="/images/modecontrol.png" alt="" />
+          <Image
+            src="/images/modecontrol.png"
+            alt="modecontrol"
+            width={12}
+            height={12}
+          />
         </div>
       </div>
     </main>

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function LinksComponent() {
   return (
@@ -9,15 +10,19 @@ function LinksComponent() {
           <a href="https://github.com/onireke">
             <div className="link">
               <div className="linkimage-linkname">
-                <img
-                  src="./images/github.png"
+                <Image
+                  width={16}
+                  height={16}
+                  src="/images/github.png"
                   alt="github"
                   className="linkimage"
                 />
                 <p className="link-name">Github</p>
               </div>
-              <img
-                src="./images/uparrow.png"
+              <Image
+                width={12}
+                height={12}
+                src="/images/uparrow.png"
                 alt="arrow"
                 className="arrow-image"
               />
@@ -26,15 +31,19 @@ function LinksComponent() {
 
           <div className="link">
             <div className="linkimage-linkname">
-              <img
-                src="./images/codepen.png"
+              <Image
+                width={16}
+                height={16}
+                src="/images/codepen.png"
                 alt="codepen"
                 className="linkimage"
               />
               <p className="link-name">Codepen</p>
             </div>
-            <img
-              src="./images/uparrow.png"
+            <Image
+              width={12}
+              height={12}
+              src="/images/uparrow.png"
               alt="arrow"
               className="arrow-image"
             />
@@ -45,15 +54,19 @@ function LinksComponent() {
           <a href="https://www.linkedin.com/in/amosa-abdulfatah-olayinka-5a224615b/">
             <div className="link">
               <div className="linkimage-linkname">
-                <img
-                  src="./images/linkedin.png"
+                <Image
+                  width={16}
+                  height={16}
+                  src="/images/linkedin.png"
                   alt="linkedin"
                   className="linkimage"
                 />
                 <p className="link-name">Linkedin</p>
               </div>
-              <img
-                src="./images/uparrow.png"
+              <Image
+                width={12}
+                height={12}
+                src="/images/uparrow.png"
                 alt="arrow"
                 className="arrow-image"
               />
@@ -63,11 +76,19 @@ function LinksComponent() {
           <a href="https://twitter.com/BlessedCoder">
             <div className="link">
               <div className="linkimage-linkname">
-                <img src="./images/twitter.png" alt="" className="linkimage" />
+                <Image
+                  width={16}
+                  height={16}
+                  src="/images/twitter.png"
+                  alt=""
+                  className="linkimage"
+                />
                 <p className="link-name">Twitter</p>
               </div>
-              <img
-                src="./images/uparrow.png"
+              <Image
+                width={12}
+                height={12}
+                src="/images/uparrow.png"
                 alt="arrow"
                 className="arrow-image"
               />

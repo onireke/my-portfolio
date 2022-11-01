@@ -14,10 +14,6 @@
       .hi {
         @apply text-[3rem] font-bold;
       }
-
-      .hand {
-        @apply w-[2rem] h-[2.4rem];
-      }
     }
     .name {
       @apply text-[3rem] font-bold;
@@ -38,17 +34,5 @@
     .white-btn {
       @apply bg-[#F9FAFB] rounded-[.5rem] border-[3px] w-[14.375rem] flex gap-x-[1rem] justify-center items-center h-[3rem];
     }
-
-    .arrow-up {
-      @apply w-[.75rem] h-[.75rem];
-    }
-
-    .arrow-down {
-      @apply w-[.75rem] h-[.75rem];
-    }
-  }
-
-  img {
-    @apply w-[25rem] h-[25rem] rounded-[50%];
   }
 }
