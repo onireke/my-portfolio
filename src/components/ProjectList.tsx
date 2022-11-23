@@ -7,7 +7,7 @@ function ProjectList() {
     {
       title: "Global finbus",
       img: "/images/globalfinbus.jpeg",
-      desc: "ehtgdiluqwehf;oquowhqywefhwqohfouwbef boebehtgdiluqwehf;oquowhqywefhwqohfouwbefboeb",
+      desc: "We help you build the management system",
       tech: ["nextjs", "Tailwind", "Typscript", "scss"],
     },
     {
@@ -17,28 +17,34 @@ function ProjectList() {
       tech: ["reactjs", "scss"],
     },
     {
-      title: "global finbus",
-      img: "/images/coctailimg.webp",
-      desc: "ehtgdiluqwehf;oquowhqywefhwqohfouwbef boebehtgdiluqwehf;oquowhqywefhwqohfouwbefboeb",
-      tech: ["nextj", "hhh"],
+      title: "Global finbus",
+      img: "/images/globalfinbus.jpeg",
+      desc: "We help you build the management system",
+      tech: ["nextjs", "Tailwind", "Typscript", "scss"],
     },
     {
-      title: "global finbus",
-      img: "/images/coctailimg.webp",
-      desc: "ehtgdiluqwehf;oquowhqywefhwqohfouwbef boebehtgdiluqwehf;oquowhqywefhwqohfouwbefboeb",
-      tech: ["nextj", "hhh"],
+      title: "Global finbus",
+      img: "/images/globalfinbus.jpeg",
+      desc: "We help you build the management system",
+      tech: ["nextjs", "Tailwind", "Typscript", "scss"],
     },
     {
-      title: "global finbus",
-      img: "/images/coctailimg.webp",
-      desc: "ehtgdiluqwehf;oquowhqywefhwqohfouwbef boebehtgdiluqwehf;oquowhqywefhwqohfouwbefboeb",
-      tech: ["nextj", "hhh"],
+      title: "Global finbus",
+      img: "/images/globalfinbus.jpeg",
+      desc: "We help you build the management system",
+      tech: ["nextjs", "Tailwind", "Typscript", "scss"],
     },
   ];
   return (
     <main className="project--list">
       {projects.map((p) => (
-        <ProjectCard title={p.title} img={p.img} desc={p.desc} tech={p.tech} />
+        <ProjectCard
+          key={p.title}
+          title={p.title}
+          img={p.img}
+          desc={p.desc}
+          tech={p.tech}
+        />
       ))}
     </main>
   );
