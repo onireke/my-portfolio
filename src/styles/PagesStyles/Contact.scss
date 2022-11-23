@@ -2,5 +2,5 @@
   background-image: url("/images/contactbg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  @apply grid place-items-center w-full h-[45.43rem];
+  @apply grid place-items-center w-full min-h-[45.43rem];
 }

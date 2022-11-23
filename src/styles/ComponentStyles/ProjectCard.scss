@@ -1,0 +1,19 @@
+.project-card {
+  @apply rounded-[2rem] p-6 min-w-full  md:min-w-[35rem] border-2 bg-white;
+  img {
+    @apply w-full h-[16rem] rounded-[2rem] mb-[2rem];
+  }
+
+  .title {
+    @apply text-[1.5rem];
+  }
+  .tech {
+    @apply flex items-center gap-4 flex-wrap;
+    .tag {
+      @apply py-1 px-3 border rounded-[1rem] bg-[#e5e4e4];
+    }
+  }
+  .description {
+    @apply my-[2rem];
+  }
+}

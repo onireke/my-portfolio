@@ -1,12 +1,12 @@
 .links-main {
-  @apply flex flex-col items-start justify-center px-[20rem] gap-x-[1.5rem];
+  @apply w-full md:w-9/12 mx-auto md:flex flex-col items-start justify-center gap-x-[1.5rem];
 
   .social {
     @apply text-[1.125rem] font-light mb-[.5rem];
   }
 
   .links-section {
-    @apply flex gap-x-[1.5rem];
+    @apply md:flex flex-wrap gap-10 gap-x-[1.5rem];
   }
 
   .left-links {
@@ -18,7 +18,7 @@
   }
 
   .link {
-    @apply flex justify-between items-center w-[27.75rem] h-[3.5rem] border border-[#E5E7EB] rounded-[.5rem] py-[.5rem] pl-[1rem] pr-[.5rem];
+    @apply flex justify-between items-center w-80 md:w-[27.75rem] h-[3.5rem] border border-[#E5E7EB] rounded-[.5rem] py-[.5rem] pl-[1rem] pr-[.5rem];
 
     .linkimage-linkname {
       @apply flex gap-x-[1.125rem];

@@ -2,13 +2,13 @@
   background-image: url("/images/workImage.png");
   background-repeat: no-repeat;
   background-size: cover;
-  @apply h-[55rem]  py-[5.8rem];
+  @apply min-h-[55rem]  py-[5.8rem];
 
   .work--section {
     @apply flex flex-col gap-y-[3rem] pb-[5rem];
 
     .top {
-      @apply flex justify-between items-end gap-x-[29.68rem]  mx-[2rem] px-[12.9rem];
+      @apply flex justify-between items-end md:gap-x-[29.68rem]  mx-[2rem] md:px-[12.9rem];
     }
 
     .feature--project {

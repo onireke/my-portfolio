@@ -5,9 +5,7 @@ import LinksComponent from "../components/LinksComponent";
 function Contact() {
   return (
     <main className="contact-main" id="Contact">
-      <section className="email-section">
-        <EmailComponent />
-      </section>
+      <EmailComponent />
       <section className="links-section">
         <LinksComponent />
       </section>

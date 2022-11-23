@@ -1,12 +1,16 @@
 .mainInfo-main {
-  @apply px-[8.9rem] py-[11.3rem];
+  @apply md:px-[8.9rem] py-[11.3rem];
 
   .main-details {
-    @apply flex justify-center items-center gap-x-[17.3rem];
+    @apply mx-auto w-full flex flex-col-reverse justify-start md:flex-row  md:justify-between items-center pt-28 md:pt-40 pb-20 px-10 gap-16;
+
+    img {
+      @apply rounded-full;
+    }
   }
 
   .detail {
-    @apply flex flex-col gap-y-[3rem];
+    @apply w-full flex flex-col gap-y-[3rem];
 
     .greet {
       @apply flex  items-center gap-x-[6.3px] mb-[8px];

@@ -59,8 +59,8 @@ function MainInfo() {
         <Image
           src="/images/coding.gif"
           alt="mypicture"
-          width={400}
-          height={320}
+          width={600}
+          height={500}
         />
       </section>
     </main>

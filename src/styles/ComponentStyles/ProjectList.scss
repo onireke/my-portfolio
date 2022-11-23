@@ -1,5 +1,5 @@
 .project--list {
-  @apply flex ml-[12.9rem];
+  @apply flex gap-6 md:ml-[12.9rem] overflow-x-scroll;
 }
 
 .list {
