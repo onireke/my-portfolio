@@ -14,7 +14,7 @@ const ProjectCard = ({
 }) => {
   return (
     <div className="project-card">
-      <Image src={img} alt="image" />
+      <Image src={img} alt="image" width={500} height={300} />
       <h1 className="title">{title}</h1>
       <p className="description">{desc}</p>
       <p className="tech ">
