@@ -18,8 +18,10 @@ const ProjectCard = ({
       <h1 className="title">{title}</h1>
       <p className="description">{desc}</p>
       <p className="tech ">
-        {tech.map((t) => (
-          <span className="tag">{t}</span>
+        {tech.map((t, i) => (
+          <span className="tag" key={i}>
+            {t}
+          </span>
         ))}
       </p>
     </div>

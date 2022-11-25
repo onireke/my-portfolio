@@ -42,9 +42,9 @@ function ProjectList() {
   ];
   return (
     <main className="project--list">
-      {projects.map((p, i) => (
+      {projects.map((p) => (
         <ProjectCard
-          key={i}
+          key={p.title}
           title={p.title}
           img={p.img}
           desc={p.desc}
