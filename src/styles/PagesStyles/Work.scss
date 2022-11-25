@@ -2,7 +2,7 @@
   background-image: url("/images/workImage.png");
   background-repeat: no-repeat;
   background-size: cover;
-  @apply min-h-[55rem]  py-[5.8rem];
+  @apply min-h-[55rem] px-[2.5rem]  py-[5.8rem];
 
   .work--section {
     @apply flex flex-col gap-y-[3rem] pb-[5rem];

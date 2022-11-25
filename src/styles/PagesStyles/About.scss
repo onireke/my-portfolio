@@ -4,7 +4,7 @@
   background-size: cover;
   background-position: 100%;
 
-  @apply grid place-items-center md:px-[27rem] py-[9rem];
+  @apply grid place-items-center px-[2.5rem] md:px-[27rem] py-[9rem];
 
   .about-section {
     @apply flex flex-col gap-y-[3rem];
