@@ -19,24 +19,6 @@ function Work() {
               />
             </div>
           </div>
-          <div className="top--right">
-            <button className="arrow-left">
-              <Image
-                width={16}
-                height={16}
-                src="/images/arrow-left.png"
-                alt="arrow"
-              />
-            </button>
-            <button className="arrow-right">
-              <Image
-                width={16}
-                height={16}
-                src="/images/arrow-right.png"
-                alt="arrow"
-              />
-            </button>
-          </div>
         </article>
         <ProjectList />
       </section>

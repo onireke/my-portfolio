@@ -1,8 +1,8 @@
 .links-main {
-  @apply w-full md:w-9/12 mx-auto md:flex flex-col items-start justify-center gap-x-[1.5rem];
+  @apply w-full md:w-9/12 mx-auto md:flex flex-col pl-[11rem] justify-center gap-x-[1.5rem];
 
   .social {
-    @apply text-[1.125rem] font-light mb-[.5rem];
+    @apply text-[1.5rem] font-light mb-[.5rem];
   }
 
   .links-section {

@@ -22,11 +22,11 @@ function MainInfo() {
             <h1 className="name">I am Amosa Abdulfatah Olayinka</h1>
           </div>
           <p className="info">
-            Abdulfatah is a dedicated and an active <br /> Javascript/React
-            based Frontend Developer seeking entry <br /> level Frontend
-            opportunities utilizing React.js/Next.js. <br /> He works personably
-            and resourcefully in a team environment and independently <br /> to
-            find efficient solutions to complex problems.
+            I am a dedicated and an active Javascript/React based Frontend{" "}
+            <br /> Developer seeking entry level Frontend opportunities
+            utilizing React.js/Next.js. <br /> I work personably and
+            resourcefully in a team environment and independently <br /> to find
+            efficient solutions to complex problems.
           </p>
           <div className="buttons">
             <Link href="#Contact">

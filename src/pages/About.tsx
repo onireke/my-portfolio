@@ -11,17 +11,13 @@ function About() {
         </div>
         <div className="info-more">
           <p className="info">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet
-            nunc ultrices ac mauris, quis erat consequat odio. Pretium aliquet
-            nunc eget consectetur diam felis justo. Tempor ornare nunc facilisi
-            amet. Sed dui orci, ut pharetra. Vulputate id lectus laoreet
-            sagittis non. Pharetra purus quam mauris malesuada etiam nullam.
-            Ultrices nec in massa consequat erat iaculis leo.{" "}
+            I am a Frontend Software Engineer with 1 year of experience
+            designing, developing, managing user interface and prioritizing user
+            experience. An enthusiastic team player that can efficiently
+            collaborate as part of a productive team and also able to
+            effectively self-manage during independent projects.
           </p>
-          <p className="more-info">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
-            hic!
-          </p>
+          <p className="more-info"></p>
         </div>
         <div className="techs-tools">
           <div className="techs">

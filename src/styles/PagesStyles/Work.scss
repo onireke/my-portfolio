@@ -18,14 +18,5 @@
     .stuffword--image {
       @apply flex items-center gap-x-[2rem] text-[2.5rem] font-bold;
     }
-
-    .top--right {
-      @apply flex gap-x-[2.5rem] items-start;
-    }
-
-    .arrow-left,
-    .arrow-right {
-      @apply w-[2rem] h-[2rem] border border-[gray] rounded-[5px] flex justify-center items-center;
-    }
   }
 }
