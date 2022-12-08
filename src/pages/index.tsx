@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className="dark">
       <Abdulfatah />
       <About />
       <Work />
