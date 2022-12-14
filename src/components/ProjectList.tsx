@@ -27,7 +27,7 @@ function ProjectList() {
       img: "/images/productimage.png",
       desc: "our cocktail is usually an iced drink of wine mixed with flavoring ingredients",
       tech: ["reactjs", "scss", "typescript"],
-      link: "",
+      link: "https://store-product.netlify.app/",
     },
   ];
   return (
