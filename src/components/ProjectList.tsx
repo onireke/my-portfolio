@@ -18,27 +18,6 @@ function ProjectList() {
       desc: "ehtgdiluqwehf;oquowhqywefhwqohfouwbefboe behtgdiluqwehf;oquowhqywefhwqohfouwbefboeb",
       tech: ["reactjs", "scss"],
     },
-    {
-      id: 3,
-      title: "Global finbus",
-      img: "/images/globalfinbus.jpeg",
-      desc: "We help you build the management system",
-      tech: ["nextjs", "Tailwind", "Typscript", "scss"],
-    },
-    {
-      id: 4,
-      title: "Global finbus",
-      img: "/images/globalfinbus.jpeg",
-      desc: "We help you build the management system",
-      tech: ["nextjs", "Tailwind", "Typscript", "scss"],
-    },
-    {
-      id: 5,
-      title: "Global finbus",
-      img: "/images/globalfinbus.jpeg",
-      desc: "We help you build the management system",
-      tech: ["nextjs", "Tailwind", "Typscript", "scss"],
-    },
   ];
   return (
     <main className="project--list">
