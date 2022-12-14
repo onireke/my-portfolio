@@ -25,7 +25,7 @@ function ProjectList() {
       id: 3,
       title: "Product Store",
       img: "/images/productimage.png",
-      desc: "our cocktail is usually an iced drink of wine mixed with flavoring ingredients",
+      desc: "we serve you with all your day-to-day wearables",
       tech: ["reactjs", "scss", "typescript"],
       link: "https://store-product.netlify.app/",
     },
