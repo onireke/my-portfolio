@@ -14,9 +14,16 @@ function ProjectList() {
     {
       id: 2,
       title: "Cocktail",
-      img: "/images/coctailimg.webp",
-      desc: "ehtgdiluqwehf;oquowhqywefhwqohfouwbefboe behtgdiluqwehf;oquowhqywefhwqohfouwbefboeb",
+      img: "/images/cocktail.png",
+      desc: "our cocktail is usually an iced drink of wine mixed with flavoring ingredients",
       tech: ["reactjs", "scss"],
+    },
+    {
+      id: 3,
+      title: "Product Store",
+      img: "/images/productimage.png",
+      desc: "our cocktail is usually an iced drink of wine mixed with flavoring ingredients",
+      tech: ["reactjs", "scss", "typescript"],
     },
   ];
   return (
