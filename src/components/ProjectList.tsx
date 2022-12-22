@@ -17,7 +17,7 @@ function ProjectList() {
       id: 2,
       title: "Cocktail",
       img: "/images/cocktail.png",
-      desc: "our cocktail is usually an iced drink of wine mixed with flavoring ingredients",
+      desc: "cocktail is an iced drink mixed with flavoring ingredients",
       tech: ["reactjs", "scss"],
       link: "https://my-sweet-cock-tail-app.netlify.app/",
     },
